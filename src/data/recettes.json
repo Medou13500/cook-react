@@ -7,8 +7,7 @@
     "description": "Un burger savoureux avec une touche classique. Ingrédients frais et un steak juteux pour une expérience culinaire inoubliable.",
     "imageUrl": "https://source.unsplash.com/1600x900/?burger",
     "date": "2024-02-22",
-    "author": "John Doe"
-  },
+    "author": "John Doe"  },
   {
     "id": "recipe-02",
     "title": "Tacos Festifs",
@@ -17,7 +16,7 @@
     "description": "Des tacos colorés et pleins de saveurs, avec une garniture riche et une sauce épicée maison.",
     "imageUrl": "https://source.unsplash.com/1600x900/?tacos",
     "date": "2024-02-22",
-    "author": "John Doe"
+    "author": "John Doe"    
   },
   {
     "id": "recipe-03",
@@ -58,6 +57,7 @@
     "imageUrl": "https://source.unsplash.com/1600x900/?roasted-chicken",
     "date": "2024-02-22",
     "author": "John Doe"
+
   },
   {
     "id": "recipe-07",

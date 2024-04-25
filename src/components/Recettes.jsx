@@ -1,20 +1,23 @@
+import React, { useEffect, useState } from "react";
 import Post from "./Post.jsx";
-import Search from "./Search"; 
 
-const Recettes = ({ searchTerm, setSearchTerm, recettesJSon, filterData}) => {
+// Fonction
+
+function Recettes({ filterData, setFilterData, handleFavoris}) {
+  
+
+
   return (
-    <>
-
-<Search searchTerm = {searchTerm} setSearchTerm = {setSearchTerm}     />
-    
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+    <div className="flex flex-wrap justify-center gap-5">
       {filterData.map(recette =>
-       <Post key={recette.id} recette={recette} />)}
+        <Post
+          key={recette.id}
+          recette={recette}
+          handleFavoris={handleFavoris}
+        />
+      )}
     </div>
-    
-    </>
-    
   );
-};
+}
 
 export default Recettes;
